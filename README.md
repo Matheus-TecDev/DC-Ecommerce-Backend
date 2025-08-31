@@ -10,7 +10,7 @@ Este é um projeto de backend que utiliza Node.js com o framework Express e segu
 <li>Emerson Souza -  <a href="https://github.com/SouEmersonSouza">GITHUB</a></li>
 <li>José Antonio -  <a href="https://github.com/JoseAAntonio">GITHUB</a></li>
  <li>Antonio Rodrigues -  <a href="https://github.com/BigTonny1980">GITHUB</a></li>
-<li>Matheus Freire -  <a href="https://github.com/matheusfmc-digitalcollege">GITHUB</a></li>
+<li>Matheus Freire -  <a href="https://github.com/Matheus-TecDev">GITHUB</a></li>
 <li>Ivan Praciano -  <a href="https://github.com/404">GITHUB</a></li>
 <li>Nivea Natalia -  <a href="https://github.com/nivea-natalia">GITHUB</a></li>
 <li>Andre Soares -  <a href="https://github.com/andresoaresmota">GITHUB</a></li>
