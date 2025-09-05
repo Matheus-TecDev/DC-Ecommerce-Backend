@@ -1,6 +1,6 @@
 # BACKEND DO DIGITAL COMMERCE FEITO NA DIGITAL COLLEGE - DRIP STORE 1.0.0
 
-Este é um projeto de backend que utiliza Node.js com o framework Express e segue os princípios da arquitetura de API Restful. O objetivo deste projeto é fornecer uma base sólida de conhecimento para o desenvolvimento de uma API escalável, confiável e de fácil manutenção. Desenvolvido por alunos da Digital College.
+Este é um projeto de backend que utiliza Node.js com o framework Express e segue os princípios da arquitetura de API Restful. O objetivo deste projeto é fornecer uma base sólida de conhecimento para o desenvolvimento de uma API escalável, confiável e de fácil manutenção. Desenvolvido por alunos da Digital College
 
 ## INTEGRANTES DA EQUIPE
 <ul>
