@@ -52,34 +52,34 @@ Este é um projeto de backend que utiliza Node.js com o framework Express e segu
 
 
   <p>Este projeto possui as seguintes rotas:</p>
-  <p><code>GET /</code>: Retorna uma mensagem de boas-vindas.</p>
+  <p><code>GET /</code>: Retorna uma mensagem de boas-vindas</p>
   
 ### ROTAS DE PRODUTOS
 <ul>
-      <li><code>GET /produtos </code>: Retorna uma lista de todos os produtos cadastrados.</li>
-      <li><code>GET /produtos/:id</code>: Retorna os dados do produto com o ID especificado.</li>
-      <li><code>GET /produtos/search?palavra_chave=&info=</code>: Retorna os dados do produto com o filtro especificado.</li>
-      <li><code>POST /produtos</code>: Cria um novo produto.</li>
-      <li><code>PUT /produtos/:id</code>: Atualiza os dados do produto com o ID especificado.</li>
-      <li><code>DELETE /produtos/:id</code>: Exclui o produto com o ID especificado.</li>
+      <li><code>GET /produtos </code>: Retorna uma lista de todos os produtos cadastrados</li>
+      <li><code>GET /produtos/:id</code>: Retorna os dados do produto com o ID especificado</li>
+      <li><code>GET /produtos/search?palavra_chave=&info=</code>: Retorna os dados do produto com o filtro especificado</li>
+      <li><code>POST /produtos</code>: Cria um novo produto</li>
+      <li><code>PUT /produtos/:id</code>: Atualiza os dados do produto com o ID especificado</li>
+      <li><code>DELETE /produtos/:id</code>: Exclui o produto com o ID especificado</li>
 </ul>
     
 ### ROTAS DE USERS
 <ul>
-      <li><code>GET /users </code>: Retorna uma lista de todos os usuários cadastrados.</li>
-      <li><code>GET /users/:id</code>: Retorna os dados do usuário com o ID especificado.</li>
-      <li><code>POST /users</code>: Cria um novo usuário. </li>
-      <li><code>PUT /users/:id</code>: Atualiza os dados do usuário com o ID especificado.</li>
-      <li><code>DELETE /users/:id</code>: Exclui o usuário com o ID especificado.</li>
+      <li><code>GET /users </code>: Retorna uma lista de todos os usuários cadastrados</li>
+      <li><code>GET /users/:id</code>: Retorna os dados do usuário com o ID especificado</li>
+      <li><code>POST /users</code>: Cria um novo usuário</li>
+      <li><code>PUT /users/:id</code>: Atualiza os dados do usuário com o ID especificado</li>
+      <li><code>DELETE /users/:id</code>: Exclui o usuário com o ID especificado</li>
 </ul>
 
 ### ROTAS DE CARRINHOS
 <ul>
-      <li><code>GET /carrinho </code>: Retorna uma lista de todos os carrinhos cadastrados.</li>
-      <li><code>GET /carrinho/:id</code>: Retorna os dados do carrinho com o ID especificado.</li>
-      <li><code>POST /carrinho</code>: Cria um novo carrinho. </li>
-      <li><code>PUT /carrinho/:id</code>: Atualiza os dados do carrinho com o ID especificado.</li>
-      <li><code>DELETE /carrinho/:id</code>: Exclui o carrinho com o ID especificado.</li>
+      <li><code>GET /carrinho </code>: Retorna uma lista de todos os carrinhos cadastrados</li>
+      <li><code>GET /carrinho/:id</code>: Retorna os dados do carrinho com o ID especificado</li>
+      <li><code>POST /carrinho</code>: Cria um novo carrinho </li>
+      <li><code>PUT /carrinho/:id</code>: Atualiza os dados do carrinho com o ID especificado</li>
+      <li><code>DELETE /carrinho/:id</code>: Exclui o carrinho com o ID especificado</li>
 </ul>
     
     
@@ -88,16 +88,16 @@ Para testar as rotas do produto Acesse: `http://localhost:3000/`
 Para testar a rota que busca os produtos baseado em sua categoria utilizar
 <br/>`http://localhost:3000/produtos/search?palavra_chave=categoria&info=calçado`
 
-Em primeiro momento criação de uma API que ler o Arquivos em JSON, utilizando o modulo FS.
-Essa API será integrada com o projeto front-end <a href="https://github.com/DarlanMendes/digital-store">Projeto DRIP-STORE</a>. 
+Em primeiro momento criação de uma API que ler o Arquivos em JSON, utilizando o modulo FS
+Essa API será integrada com o projeto front-end <a href="https://github.com/DarlanMendes/digital-store">Projeto DRIP-STORE</a>
 
 ## TECNOLOGIAS UTILIZADAS
 
  <p>O projeto utiliza as seguintes tecnologias:</p>
     <ul>
-      <li><a href="https://nodejs.org/">Node.js</a>: Plataforma de desenvolvimento JavaScript utilizada para criar aplicações de alta escalabilidade e desempenho.</li>
-      <li><a href="https://expressjs.com/">Express</a>: Framework para Node.js que fornece recursos para criação de APIs Restful de forma fácil e rápida.</li>
-       <li><a href="https://expressjs.com/">JWT</a>: JWT é um padrão para autenticação e troca de informações definido pela RFC7519. Nele é possível armazenar de forma segura e compacta objetos JSON. Este token é um código Base64 e pode ser assinado usando um segredo ou par de chaves privadas/públicas.</li>
+      <li><a href="https://nodejs.org/">Node.js</a>: Plataforma de desenvolvimento JavaScript utilizada para criar aplicações de alta escalabilidade e desempenho</li>
+      <li><a href="https://expressjs.com/">Express</a>: Framework para Node.js que fornece recursos para criação de APIs Restful de forma fácil e rápida</li>
+       <li><a href="https://expressjs.com/">JWT</a>: JWT é um padrão para autenticação e troca de informações definido pela RFC7519. Nele é possível armazenar de forma segura e compacta objetos JSON. Este token é um código Base64 e pode ser assinado usando um segredo ou par de chaves privadas/públicas</li>
       
  </ul>
 
